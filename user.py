@@ -15,3 +15,6 @@ class User:
 
     def set_lname(self, lname):
         self.__lname = lname
+
+    def __str__(self) -> str:
+        return f"Name: {self.__name}, Last Name: {self.__lname}"
